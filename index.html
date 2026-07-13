@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EYON DESIGN 奕云设计工作室 | 室内设计</title>
+    <meta name="description" content="EYON DESIGN 奕云设计工作室，专业室内设计服务，为您打造理想空间。">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="nav-logo">
+                <img src="logo.png" alt="EYON DESIGN" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="#work" class="nav-link">作品</a>
+                <a href="#services" class="nav-link">服务</a>
+                <a href="#process" class="nav-link">流程</a>
+                <a href="#about" class="nav-link">关于</a>
+                <a href="#contact" class="nav-link nav-link-cta">联系</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="菜单">
+                <span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- 首屏 Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+            <div class="hero-tag" data-animate>
+                <span class="tag-dot"></span> 室内设计工作室 · 上海
+            </div>
+            <h1 class="hero-title" data-animate>
+                <span class="title-line">空间有界</span>
+                <span class="title-line title-line-accent">设计无限</span>
+            </h1>
+            <p class="hero-desc" data-animate>
+                我们相信每个空间都有它的灵魂。<br>
+                用专业设计语言，为您的空间讲述独一无二的故事。
+            </p>
+            <div class="hero-actions" data-animate>
+                <a href="#contact" class="btn btn-primary">
+                    预约咨询
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+                <a href="#work" class="btn btn-ghost">浏览作品</a>
+            </div>
+        </div>
+        <!-- 滚动提示 -->
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-dot"></div>
+            </div>
+            <span>滚动探索</span>
+        </div>
+    </section>
+
+    <!-- 作品展示 -->
+    <section class="work" id="work">
+        <div class="section-container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">PORTFOLIO</span>
+                <h2 class="section-title">精选作品</h2>
+                <p class="section-desc">每一个项目，都是一次空间与人的深度对话</p>
+            </div>
+            <div class="work-grid">
+                <article class="work-card work-card-featured" data-animate>
+                    <div class="work-card-image">
+                        <div class="work-img-placeholder">
+                            <span>01</span>
+                        </div>
+                        <div class="work-card-overlay">
+                            <span class="work-card-tag">住宅空间</span>
+                            <h3>现代简约大平层</h3>
+                            <p>220㎡ · 上海黄浦</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="work-card" data-animate>
+                    <div class="work-card-image">
+                        <div class="work-img-placeholder"><span>02</span></div>
+                        <div class="work-card-overlay">
+                            <span class="work-card-tag">商业空间</span>
+                            <h3>精品咖啡概念店</h3>
+                            <p>120㎡ · 上海静安</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="work-card" data-animate>
+                    <div class="work-card-image">
+                        <img src="images/新中式别墅.jpg" alt="新中式别墅" style="width:100%; height:100%; object-fit:cover;">
+                        <div class="work-card-overlay">
+                            <span class="work-card-tag">住宅空间</span>
+                            <h3>新中式别墅</h3>
+                            <p>350㎡ · 杭州西湖</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="work-card" data-animate>
+                    <div class="work-card-image">
+                        <div class="work-img-placeholder"><span>04</span></div>
+                        <div class="work-card-overlay">
+                            <span class="work-card-tag">办公空间</span>
+                            <h3>创意科技办公室</h3>
+                            <p>300㎡ · 上海浦东</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="work-card work-card-wide" data-animate>
+                    <div class="work-card-image">
+                        <div class="work-img-placeholder"><span>05</span></div>
+                        <div class="work-card-overlay">
+                            <span class="work-card-tag">商业空间</span>
+                            <h3>高端日料餐厅</h3>
+                            <p>180㎡ · 上海徐汇</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="section-cta" data-animate>
+                <a href="#contact" class="btn btn-outline">了解更多案例 →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 服务项目 -->
+    <section class="services" id="services">
+        <div class="section-container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">SERVICES</span>
+                <h2 class="section-title">服务项目</h2>
+                <p class="section-desc">从概念到落地，一站式全案设计服务</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate>
+                    <div class="service-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="24" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M4 16h24" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="22" r="2" fill="currentColor"/></svg>
+                    </div>
+                    <h3>住宅设计</h3>
+                    <p>平层 · 复式 · 别墅全案设计，空间规划至软装搭配</p>
+                    <span class="service-link">了解详情 →</span>
+                </div>
+                <div class="service-card" data-animate>
+                    <div class="service-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="6" y="3" width="20" height="26" rx="2" stroke="currentColor" stroke-width="1.5"/><line x1="6" y1="8" x2="26" y2="8" stroke="currentColor" stroke-width="1.5"/><line x1="16" y1="24" x2="16" y2="26" stroke="currentColor" stroke-width="1.5"/></svg>
+                    </div>
+                    <h3>商业空间</h3>
+                    <p>餐饮 · 零售 · 展厅设计，以设计驱动商业价值</p>
+                    <span class="service-link">了解详情 →</span>
+                </div>
+                <div class="service-card" data-animate>
+                    <div class="service-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M4 28L12 10l6 10 8-16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="10" r="2" fill="currentColor"/><circle cx="18" cy="20" r="2" fill="currentColor"/><circle cx="26" cy="4" r="2" fill="currentColor"/></svg>
+                    </div>
+                    <h3>软装搭配</h3>
+                    <p>家具 · 灯具 · 布艺定制，让空间更具温度与个性</p>
+                    <span class="service-link">了解详情 →</span>
+                </div>
+                <div class="service-card" data-animate>
+                    <div class="service-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M16 6v10l6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>全案托管</h3>
+                    <p>设计至施工一站式服务，省心省力效果完美落地</p>
+                    <span class="service-link">了解详情 →</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 数据展示 -->
+    <section class="stats" id="stats">
+        <div class="section-container">
+            <div class="stats-grid">
+                <div class="stat-item" data-animate>
+                    <div class="stat-number" data-count="500">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">完成项目</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item" data-animate>
+                    <div class="stat-number" data-count="8">0</div>
+                    <div class="stat-label">年行业经验</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item" data-animate>
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-label">客户满意度</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item" data-animate>
+                    <div class="stat-number" data-count="30">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">合作品牌</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 设计流程 -->
+    <section class="process" id="process">
+        <div class="section-container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">PROCESS</span>
+                <h2 class="section-title">设计流程</h2>
+                <p class="section-desc">系统化的设计管理，确保每个环节精准执行</p>
+            </div>
+            <div class="process-track">
+                <div class="process-line"></div>
+                <div class="process-steps">
+                    <div class="process-step" data-animate>
+                        <div class="step-marker"><span>01</span></div>
+                        <div class="step-content">
+                            <h3>需求沟通</h3>
+                            <p>深度了解您的生活方式、审美偏好与功能诉求，建立设计共识</p>
+                        </div>
+                    </div>
+                    <div class="process-step" data-animate>
+                        <div class="step-marker"><span>02</span></div>
+                        <div class="step-content">
+                            <h3>概念方案</h3>
+                            <p>空间规划、风格定位与初步设计提案，呈现空间可能性</p>
+                        </div>
+                    </div>
+                    <div class="process-step" data-animate>
+                        <div class="step-marker"><span>03</span></div>
+                        <div class="step-content">
+                            <h3>深化设计</h3>
+                            <p>完善施工图纸、材料选样与软装方案细节把控</p>
+                        </div>
+                    </div>
+                    <div class="process-step" data-animate>
+                        <div class="step-marker"><span>04</span></div>
+                        <div class="step-content">
+                            <h3>施工落地</h3>
+                            <p>全程监理施工品质，确保设计效果完美呈现</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <div class="about-grid">
+                <div class="about-visual" data-animate>
+                    <div class="about-img-frame">
+                        <div class="about-img-placeholder">EYON<br>DESIGN</div>
+                        <div class="about-badge">
+                            <span class="badge-year">8年</span>
+                            <span class="badge-sub">设计深耕</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-animate>
+                    <span class="section-tag">ABOUT US</span>
+                    <h2 class="section-title">EYON DESIGN<br>奕云设计工作室</h2>
+                    <p>成立于2018年，由一群热爱设计、追求极致的年轻设计师组成。我们坚信好的设计不仅仅是视觉上的美，更是功能与艺术的深度共鸣。</p>
+                    <p>专注于住宅、商业及办公空间的室内设计，致力于为每一位客户打造独一无二的空间体验。每一个项目，都是我们与客户共同创作的艺术作品。</p>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <div class="value-icon">◈</div>
+                            <div><strong>极致细节</strong><p>毫米级的精度追求</p></div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">◈</div>
+                            <div><strong>人本设计</strong><p>以居住者为中心</p></div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">◈</div>
+                            <div><strong>全程陪伴</strong><p>从概念到入住</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">CONTACT</span>
+                <h2 class="section-title">开始我们的对话</h2>
+                <p class="section-desc">期待与您相遇，一起探索空间的无限可能</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate>
+                    <div class="contact-card">
+                        <div class="contact-card-icon">📍</div>
+                        <h4>工作室地址</h4>
+                        <p>上海市静安区南京西路1788号</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon">📞</div>
+                        <h4>联系电话</h4>
+                        <p><a href="tel:+862162688888">021-6268-8888</a></p>
+                        <p class="contact-sub"><a href="tel:+8613812345678">138-1234-5678</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon">✉️</div>
+                        <h4>电子邮箱</h4>
+                        <p><a href="mailto:hello@eyondesign.com">hello@eyondesign.com</a></p>
+                    </div>
+                </div>
+                <div class="contact-qr" data-animate>
+                    <div class="qr-wrapper">
+                        <div class="qr-card">
+                            <div class="qr-frame">
+                                <svg viewBox="0 0 100 100" class="qr-svg">
+                                    <rect x="10" y="10" width="7" height="7" fill="#383838"/><rect x="20" y="10" width="7" height="7" fill="#383838"/><rect x="30" y="10" width="7" height="7" fill="#383838"/><rect x="43" y="10" width="7" height="7" fill="#383838"/><rect x="56" y="10" width="7" height="7" fill="#383838"/><rect x="66" y="10" width="7" height="7" fill="#383838"/><rect x="83" y="10" width="7" height="7" fill="#383838"/><rect x="10" y="20" width="7" height="7" fill="#383838"/><rect x="30" y="20" width="7" height="7" fill="#383838"/><rect x="66" y="20" width="7" height="7" fill="#383838"/><rect x="83" y="20" width="7" height="7" fill="#383838"/><rect x="10" y="30" width="7" height="7" fill="#383838"/><rect x="20" y="30" width="7" height="7" fill="#383838"/><rect x="30" y="30" width="7" height="7" fill="#383838"/><rect x="43" y="30" width="7" height="7" fill="#383838"/><rect x="83" y="30" width="7" height="7" fill="#383838"/><rect x="10" y="43" width="7" height="7" fill="#383838"/><rect x="43" y="43" width="7" height="7" fill="#383838"/><rect x="56" y="43" width="7" height="7" fill="#383838"/><rect x="66" y="43" width="7" height="7" fill="#383838"/><rect x="83" y="43" width="7" height="7" fill="#383838"/><rect x="10" y="56" width="7" height="7" fill="#383838"/><rect x="20" y="56" width="7" height="7" fill="#383838"/><rect x="30" y="56" width="7" height="7" fill="#383838"/><rect x="43" y="56" width="7" height="7" fill="#383838"/><rect x="56" y="56" width="7" height="7" fill="#383838"/><rect x="66" y="56" width="7" height="7" fill="#383838"/><rect x="83" y="56" width="7" height="7" fill="#383838"/><rect x="10" y="66" width="7" height="7" fill="#383838"/><rect x="43" y="66" width="7" height="7" fill="#383838"/><rect x="56" y="66" width="7" height="7" fill="#383838"/><rect x="83" y="66" width="7" height="7" fill="#383838"/><rect x="10" y="83" width="7" height="7" fill="#383838"/><rect x="20" y="83" width="7" height="7" fill="#383838"/><rect x="30" y="83" width="7" height="7" fill="#383838"/><rect x="43" y="83" width="7" height="7" fill="#383838"/><rect x="56" y="83" width="7" height="7" fill="#383838"/><rect x="66" y="83" width="7" height="7" fill="#383838"/><rect x="83" y="83" width="7" height="7" fill="#383838"/>
+                                </svg>
+                            </div>
+                            <p>💬 微信扫码咨询</p>
+                        </div>
+                        <div class="qr-card">
+                            <div class="qr-frame">
+                                <svg viewBox="0 0 100 100" class="qr-svg">
+                                    <rect x="10" y="10" width="7" height="7" fill="#383838"/><rect x="20" y="10" width="7" height="7" fill="#383838"/><rect x="30" y="10" width="7" height="7" fill="#383838"/><rect x="43" y="10" width="7" height="7" fill="#383838"/><rect x="66" y="10" width="7" height="7" fill="#383838"/><rect x="83" y="10" width="7" height="7" fill="#383838"/><rect x="10" y="20" width="7" height="7" fill="#383838"/><rect x="30" y="20" width="7" height="7" fill="#383838"/><rect x="66" y="20" width="7" height="7" fill="#383838"/><rect x="83" y="20" width="7" height="7" fill="#383838"/><rect x="10" y="30" width="7" height="7" fill="#383838"/><rect x="20" y="30" width="7" height="7" fill="#383838"/><rect x="30" y="30" width="7" height="7" fill="#383838"/><rect x="56" y="30" width="7" height="7" fill="#383838"/><rect x="83" y="30" width="7" height="7" fill="#383838"/><rect x="43" y="43" width="7" height="7" fill="#383838"/><rect x="56" y="43" width="7" height="7" fill="#383838"/><rect x="66" y="43" width="7" height="7" fill="#383838"/><rect x="10" y="56" width="7" height="7" fill="#383838"/><rect x="30" y="56" width="7" height="7" fill="#383838"/><rect x="56" y="56" width="7" height="7" fill="#383838"/><rect x="66" y="56" width="7" height="7" fill="#383838"/><rect x="83" y="56" width="7" height="7" fill="#383838"/><rect x="10" y="66" width="7" height="7" fill="#383838"/><rect x="20" y="66" width="7" height="7" fill="#383838"/><rect x="43" y="66" width="7" height="7" fill="#383838"/><rect x="66" y="66" width="7" height="7" fill="#383838"/><rect x="83" y="66" width="7" height="7" fill="#383838"/><rect x="10" y="83" width="7" height="7" fill="#383838"/><rect x="20" y="83" width="7" height="7" fill="#383838"/><rect x="30" y="83" width="7" height="7" fill="#383838"/><rect x="43" y="83" width="7" height="7" fill="#383838"/><rect x="56" y="83" width="7" height="7" fill="#383838"/><rect x="66" y="83" width="7" height="7" fill="#383838"/><rect x="83" y="83" width="7" height="7" fill="#383838"/>
+                                </svg>
+                            </div>
+                            <p>🎵 抖音扫码关注</p>
+                        </div>
+                    </div>
+                    <p class="qr-note">请替换为真实二维码图片</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="EYON DESIGN" class="footer-logo">
+                    <p class="footer-slogan">用设计语言，讲述您的空间故事</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>导航</h4>
+                    <a href="#work">作品</a>
+                    <a href="#services">服务</a>
+                    <a href="#process">流程</a>
+                    <a href="#about">关于</a>
+                    <a href="#contact">联系</a>
+                </div>
+                <div class="footer-info">
+                    <h4>联系</h4>
+                    <p>📍 上海市静安区南京西路1788号</p>
+                    <p>📞 <a href="tel:+862162688888">021-6268-8888</a></p>
+                    <p>✉️ <a href="mailto:hello@eyondesign.com">hello@eyondesign.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 EYON DESIGN 奕云设计工作室</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
