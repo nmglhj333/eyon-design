@@ -6,8 +6,6 @@
     <title>EYON DESIGN 奕云设计工作室 | 室内设计</title>
     <meta name="description" content="EYON DESIGN 奕云设计工作室，专业室内设计服务，为您打造理想空间。">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- 导航栏 -->
@@ -72,7 +70,7 @@
             <div class="work-grid">
                 <article class="work-card work-card-featured" data-animate>
                     <div class="work-card-image">
-                        <img src="images/自建房庭院.jpg" alt="自建房庭院" style="width:100%;height:100%;object-fit:cover;">
+                        <img src="images/自建房庭院.jpg" alt="自建房庭院" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
                         <div class="work-card-overlay">
                             <span class="work-card-tag">住宅空间</span>
                             <h3>自建房庭院</h3>
@@ -82,7 +80,7 @@
                 </article>
                 <article class="work-card" data-animate>
                     <div class="work-card-image">
-                        <img src="images/酒店门头.jpg" alt="酒店门头" style="width:100%;height:100%;object-fit:cover;">
+                        <img src="images/酒店门头.jpg" alt="酒店门头" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
                         <div class="work-card-overlay">
                             <span class="work-card-tag">商业空间</span>
                             <h3>酒店门头</h3>
@@ -102,7 +100,7 @@
                 </article>
                 <article class="work-card" data-animate>
                     <div class="work-card-image">
-                        <img src="images/古街咖啡店.jpg" alt="古街咖啡店" style="width:100%;height:100%;object-fit:cover;">
+                        <img src="images/古街咖啡店.jpg" alt="古街咖啡店" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
                         <div class="work-card-overlay">
                             <span class="work-card-tag">商业空间</span>
                             <h3>古街咖啡店</h3>
@@ -112,7 +110,7 @@
                 </article>
                 <article class="work-card work-card-wide" data-animate>
                     <div class="work-card-image">
-                        <img src="images/酒店客房.jpg" alt="酒店客房" style="width:100%;height:100%;object-fit:cover;">
+                        <img src="images/酒店客房.jpg" alt="酒店客房" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
                         <div class="work-card-overlay">
                             <span class="work-card-tag">商业空间</span>
                             <h3>酒店客房</h3>
@@ -308,6 +306,7 @@
                         <div class="contact-card-icon">✉️</div>
                         <h4>电子邮箱</h4>
                         <p><a href="mailto:hello@eyondesign.com">hello@eyondesign.com</a></p>
+                        <p><a href="mailto:eyondesignstudio@126.com">eyondesignstudio@126.com</a></p>
                     </div>
                 </div>
                 <div class="contact-qr" data-animate>
@@ -351,6 +350,7 @@
                     <p>📍 河南省洛阳市西工区</p>
                     <p>📞 <a href="tel:15136305309">15136305309</a></p>
                     <p>✉️ <a href="mailto:hello@eyondesign.com">hello@eyondesign.com</a></p>
+                    <p>✉️ <a href="mailto:eyondesignstudio@126.com">eyondesignstudio@126.com</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -358,6 +358,18 @@
             </div>
         </div>
     </footer>
+
+    <!-- 手机端底部导航 -->
+    <div class="mobile-bar">
+        <div class="mobile-bar-inner">
+            <a href="tel:15136305309" class="mobile-bar-btn mobile-bar-tel">
+                <span class="mobile-bar-icon">📞</span> 一键拨号
+            </a>
+            <a href="#contact" class="mobile-bar-btn mobile-bar-wx">
+                <span class="mobile-bar-icon">💬</span> 微信咨询
+            </a>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
